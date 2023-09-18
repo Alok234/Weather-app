@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link for font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link for css file -->
+    <link rel="stylesheet" href="style.css">
+    <title>Weather-App</title>
+</head>
+<body>
+         <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Enter city name" spellcheck="false" class="input">
+                <button class="btn"><i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="weather">
+                <img class="weatherIcon" src="images/rain.png" alt="">
+                 <h1 class="temp">30°C</h1>
+                 <h2 class="city">Dhaka</h2>
+                 <div class="details">
+                    <div class="col">
+                        <img src="images/humidity.png" alt="" class="w-icon">
+                        <div>
+                            <p class="humidity">68%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/wind.png" alt="">
+                        <div>
+                            <p class="wind">10 km/h</p>
+                            <p>Wind</p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+         </div>
+
+
+         <script src="main.js"></script>
+</body>
+</html>
